@@ -1,3 +1,8 @@
+Settings
+local Settings = {
+	VisibleHitbox = true;
+	Hitmarker = false
+}
 local RepoPath = "https://raw.githubusercontent.com/CoolCatUser/HacklordRepo/main/"
 local loadedassets = {}
 local getasset = getcustomasset or getsynasset or function(a) return "rbxasset://"..a end
@@ -1402,4 +1407,5 @@ table.insert(CleanUp, PreRender:Connect(function()
 			end
 		end
 	end
+
 end))
