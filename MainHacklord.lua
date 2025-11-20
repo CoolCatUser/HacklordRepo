@@ -1,4 +1,3 @@
-Settings
 local Settings = {
 	VisibleHitbox = true;
 	Hitmarker = false
@@ -1409,3 +1408,4 @@ table.insert(CleanUp, PreRender:Connect(function()
 	end
 
 end))
+
